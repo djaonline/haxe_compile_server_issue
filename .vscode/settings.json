@@ -1,0 +1,14 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"search.useIgnoreFiles": false,
+	"search.exclude": {
+		"**/.haxelib": false,
+		"**/node_modules": true,
+		"**/yarn.lock": true,
+		"**/.temp": true
+	}
+}

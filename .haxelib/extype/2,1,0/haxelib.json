@@ -1,0 +1,12 @@
+{
+    "name": "extype",
+    "url": "https://github.com/DenkiYagi/haxe-extype",
+    "license": "Apache",
+    "tags": ["haxe", "extern", "type"],
+    "description": "Enhanced standard types for Haxe",
+    "version": "2.1.0",
+    "classPath": "src/",
+    "releasenote": "Add NoDataError and change `Maybe#getOrThrow()` to throw NoDataError",
+    "contributors": ["denkiyagi"],
+    "dependencies": {}
+}

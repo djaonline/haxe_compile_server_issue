@@ -1,0 +1,70 @@
+package js.npm.selenium.webdriver;
+
+import haxe.extern.Rest;
+
+@:jsRequire("selenium-webdriver", "Key")
+extern class Key 
+{ 
+    static var ADD(default, null): String;
+    static var ALT(default, null): String;	
+    static var ARROW_DOWN(default, null): String;	
+    static var ARROW_LEFT(default, null): String;	
+    static var ARROW_RIGHT(default, null): String;	
+    static var ARROW_UP(default, null): String;	
+    static var BACK_SPACE(default, null): String;	
+    static var CANCEL(default, null): String;	
+    static var CLEAR(default, null): String;	
+    static var COMMAND(default, null): String;	
+    static var CONTROL(default, null): String;	
+    static var DECIMAL(default, null): String;	
+    static var DELETE(default, null): String;	
+    static var DIVIDE(default, null): String;	
+    static var DOWN(default, null): String;	
+    static var END(default, null): String;
+    static var ENTER(default, null): String;	
+    static var EQUALS(default, null): String;	
+    static var ESCAPE(default, null): String;	
+    static var F1(default, null): String;	
+    static var F10(default, null): String;	
+    static var F11(default, null): String;	
+    static var F12(default, null): String;	
+    static var F2(default, null): String;	
+    static var F3(default, null): String;	
+    static var F4(default, null): String;	
+    static var F5(default, null): String;	
+    static var F6(default, null): String;	
+    static var F7(default, null): String;	
+    static var F8(default, null): String;	
+    static var F9(default, null): String;	
+    static var HELP(default, null): String;	
+    static var HOME(default, null): String;	
+    static var INSERT(default, null): String;	
+    static var LEFT(default, null): String;	
+    static var META(default, null): String;	
+    static var MULTIPLY(default, null): String;	
+    static var NULL(default, null): String;	
+    static var NUMPAD0(default, null): String;	
+    static var NUMPAD1(default, null): String;
+    static var NUMPAD2(default, null): String;	
+    static var NUMPAD3(default, null): String;	
+    static var NUMPAD4(default, null): String;	
+    static var NUMPAD5(default, null): String;	
+    static var NUMPAD6(default, null): String;	
+    static var NUMPAD7(default, null): String;	
+    static var NUMPAD8(default, null): String;	
+    static var NUMPAD9(default, null): String;	
+    static var PAGE_DOWN(default, null): String;	
+    static var PAGE_UP(default, null): String;	
+    static var PAUSE(default, null): String;	
+    static var RETURN(default, null): String;	
+    static var RIGHT(default, null): String;	
+    static var SEMICOLON(default, null): String;	
+    static var SEPARATOR(default, null): String;	
+    static var SHIFT(default, null): String;	
+    static var SPACE(default, null): String;	
+    static var SUBTRACT(default, null): String;	
+    static var TAB(default, null): String;	
+    static var UP(default, null): String;	
+    static var ZENKAKU_HANKAKU(default, null): String;
+    static function chord(keys: Rest<String>): String;	
+}

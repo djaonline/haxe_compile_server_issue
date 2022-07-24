@@ -1,0 +1,11 @@
+-main Main
+-cp src
+-cp test
+-lib buddy
+-lib utest
+#--interp
+#-js dist/dummy.js
+-neko dist/dummy.n
+--no-output
+--no-opt
+--no-inline

@@ -1,0 +1,20 @@
+-lib react
+-lib react-router-4
+-lib redux
+-lib css-types
+-lib react-types
+
+-cp src
+-cp .libs
+
+
+-main Main
+
+-D analyzer-optimize
+-D debug
+-D develop
+-D react_hot
+-D react_render_warning
+-D no-deprecation-warnings
+
+-js bin/js/index.js
